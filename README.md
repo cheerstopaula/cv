@@ -1,2 +1,3 @@
 # cv
-CV in a readable quarto file and use CSS to publish/print it
+
+Edit `index.qmd` and run `quarto render index.qmd`. Hosted on my [site](https://theorashid.github.io/cv/).
