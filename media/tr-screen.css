@@ -282,12 +282,41 @@ strong {
   display: none;
 }
 
-@media only screen and (max-width: 480px){
-  .container_12 {
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      max-width: 600px;
-      min-width: 320px;
-      display: block;
-  }}
+@media only screen and (max-width: 600px) {
+
+  body {
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  #webaddress {
+    position: static;
+    width: 100%;
+    text-align: left;
+  }
+
+  h2 {
+    margin-top: 2em;
+  }
+
+  h3 {
+    margin-top: 0.3em;
+    color: #666;
+    font-size: 0.95em;
+  }
+
+  p,
+  ul {
+    margin-top: 0.3em;
+  }
+
+  p code {
+    position: static;
+    margin-right: 0.5em;
+  }
+}
